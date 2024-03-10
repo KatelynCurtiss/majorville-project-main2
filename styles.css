@@ -1,0 +1,28 @@
+.root {
+    --blue: lightblue;
+    --orange: orange;
+    --pink: pink;
+    --purpleblue: rgb(117, 58, 255);
+    --yellow: lightyellow;
+}
+
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul, li {
+    padding: 0;
+    list-style-type: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 30px;
+}
+
+header {
+    grid-column: span 3;
+    text-align: center;
+    border-bottom: 1px solid lightblue;
+}
