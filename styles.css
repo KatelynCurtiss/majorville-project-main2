@@ -59,3 +59,35 @@ footer {
     border-top: 1px solid palegreen;
     padding: 30px; 
 }
+
+/*responsive*/
+@media screen and (max-width: 1200px) {
+    nav {
+        grid-column: span 3;
+        border-right: 0;
+        border-bottom: 1px solid lightblue;
+    }
+    nav li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    article {
+        grid-column: span 2;
+    }
+    aside {
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    nav, article, aside {
+        grid-column: span 3;
+    }
+    aside {
+        border-left: 0;
+        border-top: 1px solid lightblue;
+    }
+    article h2 {
+        font-size: 2.5 2m; 
+    }
+}
