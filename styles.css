@@ -4,6 +4,7 @@
     --pink: pink;
     --purpleblue: rgb(117, 58, 255);
     --yellow: lightyellow;
+    --palegreen: palegreen;
 }
 
 body{
@@ -25,4 +26,36 @@ header {
     grid-column: span 3;
     text-align: center;
     border-bottom: 1px solid lightblue;
+}
+nav {
+    padding: 30px;
+    border-right: 1px solid orange;
+}
+nav li {
+    text-decoration: underline;
+}
+article{
+    padding: 30px;
+}
+article {
+    font-size: 3.5rem;
+    max-width: 880px;
+}
+article img{
+    width: 100%;
+}
+article p {
+    margin-top: 30px;
+    line-height: 2em;
+    color:pink;
+}
+aside {
+    padding: 30px;
+    border-left: 1px solid pink;
+}
+footer {
+    grid-column: span 3;
+    text-align: center;
+    border-top: 1px solid palegreen;
+    padding: 30px; 
 }
